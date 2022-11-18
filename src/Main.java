@@ -31,7 +31,7 @@ public class Main {
             case '*' -> op1 * op2;
             case '/' -> op1 / op2;
             default -> {
-                System.out.println("Неверный знак");
+                System.out.println("Неверный знак!");
                 yield 0;
             }
 
